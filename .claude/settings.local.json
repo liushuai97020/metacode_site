@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /docs)",
+      "Read(//home/**)",
+      "Read(//mnt/**)",
+      "Read(//c//**)",
+      "Bash(npm create *)",
+      "Bash(cp -r temp-app/* temp-app/.* .)",
+      "Bash(rm -rf temp-app)",
+      "Bash(cp *)",
+      "Bash(npm install *)",
+      "Bash(npm view *)",
+      "Bash(npx vite *)",
+      "Bash(npx tsc *)",
+      "Bash(grep \"\\\\.css$\")",
+      "Bash(curl -s http://localhost:5175)"
+    ]
+  }
+}
