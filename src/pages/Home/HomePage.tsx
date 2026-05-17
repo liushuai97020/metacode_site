@@ -114,7 +114,7 @@ export default function HomePage() {
           description="完全本地化的智能编码体验，保护代码隐私的同时提供顶级 AI 辅助能力"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
-          {HIGHLIGHTS.map((item, i) => {
+          {HIGHLIGHTS.map((item) => {
             const Icon = iconMap[item.icon];
             return (
               <GlassCard key={item.title} glow={item.color}>

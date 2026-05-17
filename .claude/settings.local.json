@@ -14,7 +14,10 @@
       "Bash(npx vite *)",
       "Bash(npx tsc *)",
       "Bash(grep \"\\\\.css$\")",
-      "Bash(curl -s http://localhost:5175)"
+      "Bash(curl -s http://localhost:5175)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }

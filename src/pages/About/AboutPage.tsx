@@ -1,4 +1,4 @@
-import { Code2, Lock, Cpu, Github, Hexagon, ArrowRight } from 'lucide-react';
+import { Code2, Lock, Cpu, Github, ArrowRight } from 'lucide-react';
 import SectionHeading from '../../components/ui/SectionHeading';
 import GlassCard from '../../components/ui/GlassCard';
 import GradientButton from '../../components/ui/GradientButton';
